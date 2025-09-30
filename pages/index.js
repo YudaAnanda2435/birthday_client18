@@ -99,7 +99,7 @@ export default function BirthdayCard() {
 
   const message = `Selamat ulang tahun, adi🤍🫰🏻
 
-Semoga panjang umur, sehat selalu, dan semua yang diharapkan sama adi bisa tercapai. Semoga apa yang kita jalani sekarang bisa sesuai dengan harapan kita ya, semoga hal indah untuk kamu dan untuk kita ada di waktu yg akan datang. Semoga hal baik selalu beriringan sama kamu, semoga semesta senantiasa berpihak sama kamu, teruslah tumbuh 🙌🏻 dan semoga bisa tetap bahagia yaa, meskipun aku ga ada di samping kamu secara langsung, aku disini selalu berdoa yang terbaik buat kamu.
+Semoga panjang umur, sehat selalu, dan semua yang diharapkan sama adi bisa tercapai. Semoga apa yang kita jalani sekarang bisa sesuai dengan harapan kita ya, semoga ada hal indah untuk kamu dan untuk kita di waktu yg akan datang. Semoga hal baik selalu beriringan sama kamu, semoga semesta senantiasa berpihak sama kamu, teruslah tumbuh 🙌🏻 dan semoga bisa tetap bahagia yaa, meskipun aku ga ada di samping kamu secara langsung, aku disini selalu berdoa yang terbaik buat kamu.
 
 Bersyukur sekali bisa kenal sama kamu sayangku, dan meskipun kita ini bisa dibilang masih sama-sama bingung dengan hubungan, its oke, aku cuma mau bilang kalau kamu itu selalu punya tempat khusus di hati aku. kamu sangat berarti bagi aku, aku harap kamu selalu berusaha untuk jadi orang yang lebih baik lagi, jangan pernah bosan yaa.
 
