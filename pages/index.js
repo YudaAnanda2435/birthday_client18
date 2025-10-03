@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 // import shutdownStyles from "../styles/Shutdown.module.css";
 import { useRouter } from "next/router";
@@ -95,7 +96,7 @@ export default function BirthdayCard() {
   const recipientName =
     typeof router.query.untuk === "string" ? router.query.untuk : "adi";
   const senderName =
-    typeof router.query.dari === "string" ? router.query.dari : "Aku";
+    typeof router.query.dari === "string" ? router.query.dari : "Selomita";
 
   const message = `Selamat ulang tahun, adi🤍🫰🏻
 
@@ -853,7 +854,27 @@ Semoga hal baik terus menyertai kamu yaaa. love u more bby, adi🩷`;
                         </div>
                       </div>
                       <div className={styles.messageBoxSender}>
-                        <p>Dari: {senderName}</p>
+                        <p>Dari aku: {senderName}</p>
+                        <div className={styles.messageBoxImage}>
+                          <Image
+                            src="/gallery/roro.gif"
+                            width={100}
+                            height={100}
+                            alt=""
+                          />
+                          <Image
+                            src="/gallery/roro2.gif"
+                            width={100}
+                            height={100}
+                            alt=""
+                          />
+                          <Image
+                            src="/gallery/roro3.gif"
+                            width={100}
+                            height={100}
+                            alt=""
+                          />
+                        </div>
                       </div>
                     </div>
                     <div className={styles.pixelArt}>

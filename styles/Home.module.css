@@ -406,6 +406,14 @@
   text-align: right;
   padding: 5px 10px;
   color: #0000aa;
+  flex-direction: row !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.messageBoxImage {
+  display: flex;
+  flex-direction: row;
 }
 
 .retroNote {
@@ -579,6 +587,16 @@
 @media (max-width: 600px) {
   .container {
     height: 500px;
+  }
+
+  .messageBoxSender {
+    flex-direction: column !important;
+  }
+
+  .messageBoxImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .retroBanner {
